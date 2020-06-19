@@ -11,4 +11,6 @@ with(dataset_filter, hist(Global_active_power,col="red",
                           xlab = "Global Active Power (Kilowatts)", 
                           pin=c(480,480), main= "Global Active Power"))
 dev.copy(png,"plot1.png")
+
 dev.off()
+
